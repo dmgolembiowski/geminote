@@ -1,6 +1,7 @@
 # Geminote
 
-Tired of Chrome restricting access to your local files when you try to open them with `file:///`? Geminote is here to help! Think of it as a little gem that unlocks access to your precious files, making them readily available in your browser.
+Tired of Chrome not handling click navigation when you're using it as a file explorer? 
+Take back your life and access to your local files when you try to open them with `file:///` with Geminote: it is here to help! Think of it as a little gem that unlocks access to your precious files, making them readily available in your browser.
 
 ---
 
