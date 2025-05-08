@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Geminote",
+  "version": "1",
+  "description": "Developers- have this. It's a file reader plugin that lets you read instead of downloading files already on your disk.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["file:///*"],
+      "js": ["content.js"]
+    }
+  ]
+}
